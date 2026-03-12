@@ -21,3 +21,7 @@ Point-source headlights through fog/rain are the "fast bow" — the atmosphere p
 ## Gap
 
 Nobody treats the headlight beam as a signal with spatial frequency content optimized against the scattering transfer function of the atmospheric medium, jointly with the PSF distribution of the driving population's visual aberrations.
+
+## Formal problem statement
+
+See [PROBLEM.md](PROBLEM.md) — Lagrangian relaxation over joint atmospheric and aberration constraints, framed as spatial frequency-division multiple access (SF-DMA). Includes tractable discretization (60-variable LP) and measurement requirements.
