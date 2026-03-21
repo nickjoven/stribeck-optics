@@ -1,5 +1,9 @@
 # stribeck-optics
 
+**Purpose:** Apply the stick-slip transfer function framework to atmospheric optics — designing headlight emission profiles optimized for the joint PSF of scattering media and aberrated eyes. **Status: stub.**
+
+---
+
 Atmospheric scattering as a stick-slip transfer function: designing headlight emission profiles optimized for the joint PSF of scattering media and aberrated eyes.
 
 ## Status
@@ -25,3 +29,8 @@ Nobody treats the headlight beam as a signal with spatial frequency content opti
 ## Formal problem statement
 
 See [PROBLEM.md](PROBLEM.md) — Lagrangian relaxation over joint atmospheric and aberration constraints, framed as spatial frequency-division multiple access (SF-DMA). Includes tractable discretization (60-variable LP) and measurement requirements.
+
+## Parent framework
+
+- [intersections](https://github.com/nickjoven/intersections) — stick-slip dynamics and the dark matter dual (§9 motivates this repo)
+- [201](https://github.com/nickjoven/201) — main synchronization-gravity framework
